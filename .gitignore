@@ -1,0 +1,5 @@
+*.lnk
+desktop.ini
+git/
+__pycache__/
+*.pyc
