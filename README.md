@@ -75,15 +75,6 @@ cd your-repo
 docker compose up --build
 ```
 
-### 3. Access the services
-
-| Service | URL |
-|---|---|
-| Kafka Broker | `localhost:9092` |
-| ML Inference API | http://localhost:8000 |
-| Live Dashboard | http://localhost:8501 |
-
----
 
 ## 🔧 Configuration
 
