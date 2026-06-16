@@ -1,3 +1,8 @@
+**VIDEO LINK :**  https://youtu.be/OOiCdQsYHIo?si=kYtzPT-N53mU1yzL
+
+
+
+
 # 🚀 Real-Time ML Pipeline with Kafka
 
 A containerized, event-driven machine learning pipeline built with Apache Kafka — featuring a producer, consumer, ML inference service, and a live Streamlit dashboard.
