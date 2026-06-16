@@ -1,6 +1,5 @@
 **VIDEO LINK :**  https://youtu.be/OOiCdQsYHIo?si=kYtzPT-N53mU1yzL
-
-
+**LIVE URL :**  
 
 
 # 🚀 Real-Time ML Pipeline with Kafka
