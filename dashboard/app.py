@@ -7,12 +7,6 @@ import time
 import json
 import urllib.parse
 
-st.set_page_config(
-    page_title="Driver AI Copilot",
-    page_icon="🚗",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # ── Language strings ─────────────────────────────────────────────────────────
 LANG = {
@@ -904,9 +898,9 @@ if not st.session_state.logged_in:
     </div>""", unsafe_allow_html=True)
 
     with st.form("login_form"):
-        name    = st.text_input(f"👤 {T['login_name']}", placeholder="Ravi Kumar")
-        phone   = st.text_input(f"📱 {T['login_phone']}", placeholder="9876543210")
-        vehicle = st.text_input(f"🚘 {T['login_vehicle']}", placeholder="TN 38 AB 1234")
+        name    = st.text_input(f"👤 {T['login_name']}", placeholder="Enter your name")
+        phone   = st.text_input(f"📱 {T['login_phone']}", placeholder="Enter your phone number")
+        vehicle = st.text_input(f"🚘 {T['login_vehicle']}", placeholder="Enter your vehicle number")
         submit  = st.form_submit_button(f"🚀 {T['login_btn']}", use_container_width=True)
         if submit:
             if name and phone and vehicle:
